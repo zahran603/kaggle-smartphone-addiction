@@ -1,0 +1,17 @@
+# Python virtual environment
+venv/
+.env/
+
+# Jupyter checkpoint files
+.ipynb_checkpoints/
+
+# Competition Data & heavy files
+*.zip
+train.csv
+test.csv
+*.parquet
+*.pkl
+*.model
+
+# Output submissions (keep if small, or ignore)
+submission*.csv
